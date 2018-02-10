@@ -12,8 +12,6 @@ class Store extends BaseStore {
   constructor (config = {}) {
     super(config)
 
-    AWS.config.setPromisesDependency(Promise)
-
     const {
       accessKeyId,
       assetHost,
